@@ -22,6 +22,16 @@
     .qr-card img { width: 168px; height: 168px; background: #fff; border-radius: 12px; padding: 8px; }
     .qr-card p { color: #b7b0a4; font-size: 13px; margin: 10px 0 0; }
     @media (max-width: 700px) { .contact-grid { grid-template-columns: 1fr; justify-items: center; } }
+    .exp-head { display: flex; gap: 16px; align-items: flex-start; }
+    .org-logos { display: flex; gap: 8px; flex-shrink: 0; }
+    .org-logos img {
+      width: 72px; height: 72px; object-fit: contain;
+      background: #fff; border-radius: 12px; padding: 6px;
+      border: 1px solid #2a333e;
+    }
+    @media (max-width: 600px) {
+      .org-logos img { width: 56px; height: 56px; }
+    }
   </style>
 </head>
 <body>
@@ -109,8 +119,15 @@
       <h2 data-ar="الخبرات" data-en="Experience">الخبرات</h2>
       <ol class="timeline">
         <li>
+          <div class="exp-head">
+            <div class="org-logos">
+              <img src="org-sbg.png" alt="مجموعة بن لادن السعودية" />
+            </div>
+            <div>
           <h3 data-ar="مهندس مكتب فني" data-en="Technical Office Engineer">مهندس مكتب فني</h3>
           <p class="meta" data-ar="مجموعة بن لادن السعودية · توسعة الحرم المكي — الشامية · يناير 2025 حتى الآن" data-en="Saudi Binladin Group · Makkah Haram Expansion — Al-Shamiah · Jan 2025 – Present">مجموعة بن لادن السعودية · توسعة الحرم المكي — الشامية · يناير 2025 حتى الآن</p>
+            </div>
+          </div>
           <ul>
             <li data-ar="تطوير نماذج حديد ثلاثية الأبعاد ومخططات تفصيلية على Tekla وRevit وAutoCAD بما يوافق التصميم وواقع الموقع." data-en="Develop 3D steel models and detailed drawings in Tekla, Revit, and AutoCAD aligned with design intent and site conditions.">تطوير نماذج حديد ثلاثية الأبعاد ومخططات تفصيلية على Tekla وRevit وAutoCAD بما يوافق التصميم وواقع الموقع.</li>
             <li data-ar="مراجعة وتعديل مخططات الورشة الإنشائية والتأكد من دقتها." data-en="Review and revise structural shop drawings for accuracy.">مراجعة وتعديل مخططات الورشة الإنشائية والتأكد من دقتها.</li>
@@ -119,8 +136,15 @@
           </ul>
         </li>
         <li>
+          <div class="exp-head">
+            <div class="org-logos">
+              <img src="org-hesco.png" alt="هيسكو" />
+            </div>
+            <div>
           <h3 data-ar="مهندس تصميم إنشائي" data-en="Structure Design Engineer">مهندس تصميم إنشائي</h3>
           <p class="meta" data-ar="شركة هيسكو للخدمات الهندسية · جدة · فبراير 2024 — ديسمبر 2024" data-en="HESCO Engineering Services · Jeddah · Feb 2024 – Dec 2024">شركة هيسكو للخدمات الهندسية · جدة · فبراير 2024 — ديسمبر 2024</p>
+            </div>
+          </div>
           <ul>
             <li data-ar="نمذجة مباني خرسانية ثلاثية الأبعاد على Revit." data-en="Modeled 3D concrete buildings in Revit.">نمذجة مباني خرسانية ثلاثية الأبعاد على Revit.</li>
             <li data-ar="تسليح العناصر الإنشائية: أعمدة، جدران، أساسات، بلاطات." data-en="Reinforced columns, walls, foundations, and slabs.">تسليح العناصر الإنشائية: أعمدة، جدران، أساسات، بلاطات.</li>
@@ -128,8 +152,16 @@
           </ul>
         </li>
         <li>
+          <div class="exp-head">
+            <div class="org-logos">
+              <img src="org-katan.png" alt="قطان" />
+              <img src="org-makkah.png" alt="أمانة العاصمة المقدسة" />
+            </div>
+            <div>
           <h3 data-ar="مهندس مدني" data-en="Civil Engineer">مهندس مدني</h3>
           <p class="meta" data-ar="شركة قطان للاستشارات المهنية — متعاقد مع أمانة العاصمة المقدسة · سبتمبر 2022 — ديسمبر 2023" data-en="Kattan Company for Professional Consultancy — contractor with Holy Makkah Municipality · Sep 2022 – Dec 2023">شركة قطان للاستشارات المهنية — متعاقد مع أمانة العاصمة المقدسة · سبتمبر 2022 — ديسمبر 2023</p>
+            </div>
+          </div>
           <ul>
             <li data-ar="رصد ومعالجة نقاط التحكم الأرضية بأجهزة GNSS." data-en="Observed and post-processed ground control points with GNSS.">رصد ومعالجة نقاط التحكم الأرضية بأجهزة GNSS.</li>
             <li data-ar="الإشراف على أعمال المساحة الميدانية وإدارة فريق من 6 أشخاص." data-en="Supervised survey operations and managed a team of six.">الإشراف على أعمال المساحة الميدانية وإدارة فريق من 6 أشخاص.</li>
